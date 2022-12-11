@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+text-align: center;
+font-family: "Raleway", sans-serif;
+
+}
+h1{
+    padding: 20px;
+}
+form{
+    background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+    width: fit-content;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.input-div label{
+    display: inline-block;
+    width: 110px;
+    text-align: left;
+    font-weight: 700;
+}
+.input-div input{
+    padding: 10px 5px;
+    width: 300px;
+}
+.input-div textarea{
+    width: 300px;
+    vertical-align: middle;
+}
+.input-div select{
+    width: 300px;
+    padding: 10px 5px;
+}
+.input-div div{
+    padding: 10px;
+}
+.gender{
+    padding: 10px;
+    text-align: left;
+    
+}
+.gender label:nth-child(1){
+    display: inline-block;
+    width: 110px;
+    font-weight: 700;
+}
+.gender label:nth-child(3){
+    display: inline-block;
+    padding-right: 20px;
+}
+.lang{
+    text-align: left;
+    padding: 10px;
+}
+.lang label:nth-child(1){
+    font-weight: 700;
+    display: inline-block;
+    width: 110px;
+}
+.lang input[type="checkbox"] + label {
+    padding-right: 20px;
+}
+.btn-container{
+    padding: 20px;
+}
+.btn-container input{
+    padding: 10px 20px;
+    border-style: none;
+}
+.btn-container input:hover{
+    background-color: blueviolet;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}

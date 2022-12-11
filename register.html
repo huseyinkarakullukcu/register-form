@@ -1,0 +1,103 @@
+</html<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <h1>Register Form</h1>
+    <form action="">
+
+        <div class="input-div">
+            <div class="firstname">
+                <label for="firstname"> First Name</label>
+                <input class="inputs" type="text" name="firstname" id="firstname" placeholder="Your First Name">
+            </div>
+            <!-- 2 -->
+            <div class="lastname">
+                <label for="lastname"> Last Name</label>
+                <input class="inputs" type="text" name="lastname" id="lastname" placeholder="Your Last Name">
+            </div>
+            <!-- 3 -->
+            <div class="email">
+                <label for="email">E-mail</label>
+                <input class="inputs" type="email" name="email" id="email" placeholder="Your E-mail">
+            </div>
+            <!-- 4 -->
+            <div class="password">
+                <label for="password"> Password</label>
+                <input class="inputs" type="password" name="password" id="password" placeholder="Your Password">
+            </div>
+            <!-- 5 -->
+            <div class="day">
+                <label for="day">Day of Birth</label>
+                <input class="inputs" type="date" name="day" id="day" placeholder="Your First Name" max="2020-01-01"
+                    value="2022-12-06" required>
+            </div>
+            <!-- 6 -->
+            <div class="phone">
+                <label for="phone">Phone</label>
+                <input class="inputs" type="tel" name="phone" id="phone" placeholder="Your Number">
+            </div>
+            <!-- 7 -->
+            <div class="adress">
+                <label for="adress">Adress</label>
+                <textarea class="inputs" name="adress" id="adress" cols="20" rows="10"></textarea>
+            </div>
+            <div class="select">
+                <label for="country">Country</label>
+                <select class="inputs" name="country" id="country">
+                    <option value="">Select Country</option>
+                    <option value="turkey">Turkey</option>
+                    <option value="germany">Germany</option>
+                    <option value="usa">Usa</option>
+                    <option value="uk">Uk</option>
+                </select>
+            </div>
+
+        </div>
+        <!-- gender-->
+        <div class="gender">
+
+            <label for="gender">Gender:</label>
+            <input class="radio-check" type="radio" name="gender" id="male" />
+            <label for="male">Male</label>
+            <input class="radio-check" type="radio" name="gender" id="female" checked />
+            <label for="female">Female</label>
+
+        </div>
+
+
+        <div class="lang">
+            <label for="languages">Languages:</label>
+            <input class="radio-check" type="checkbox" name="türkçe" id="türkçe" checked />
+            <label for="türkçe">Türkçe</label>
+            <input class="radio-check" type="checkbox" name="lang" id="english" />
+            <label for="english">English</label>
+            <input class="radio-check" type="checkbox" name="lang" id="français" />
+            <label for="français">Français</label>
+        </div>
+
+
+        <div class="btn-container">
+            <input type="submit" value="Save" />
+            <input type="reset" value="Clear" />
+        </div>
+    </form>
+    
+    <hr style="text-align:center;">
+    <div style="text-align:center; padding:20px;">
+        Powered by hk
+    </div>
+</body>
+
+</html>
